@@ -1,5 +1,4 @@
 ##!/bin/bash
-
 try() {
   expected="$1"
   input="$2"
@@ -20,4 +19,4 @@ try() {
 try 0 0
 try 42 42
 
-echo [ OK ]
+echo OK
