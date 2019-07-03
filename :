@@ -1,0 +1,22 @@
+# C compiler
+
+Just a c-compiler. It just could execute simplest calculation.
+
+# USAGE
+Execute with make command as below.
+```
+[root@localhost 9cc]# make test
+cc     9cc.c   -o 9cc
+./test.sh
+1 + 2 + 3 + 4 => 10
+5+20-4 => 21
+0 => 0
+42 => 42
+[ OK ]
+[root@localhost 9cc]#
+```
+
+If you want change formula, edit `test.sh`.
+
+
+if you want to trail my understood, see my [blog](https://sota0113.hatenablog.com/entry/2019/05/15/201206?_ga=2.182939750.1736118601.1562130449-1791159529.1555991627).
